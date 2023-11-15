@@ -1,1 +1,27 @@
-html {font-family: Georgia, 'Times New Roman', Times, serif;}
+html {    font-family: Georgia, 'Times New Roman', Times, serif;}
+.zagolovok {
+    background-color: rgb(177, 177, 177);
+    padding: 10px 10px 10px 50px;}
+.foto {
+    width: 150px;
+    border-radius: 40px;
+    margin-left: 45px;}
+.osnova {
+    display: flex;
+    align-items: stretch;
+    .box1 {
+        padding: 20px 20px 20px 20px;
+        background-color: rgb(112, 146, 107);}
+    .box2 {
+        flex-grow: 3;
+        padding: 20px 20px 20px 20px;
+        background-color: rgb(189, 197, 181);}
+}
+table {border: 1px solid black;
+    text-align: center;
+    width: 80%;}
+td, th {border: 1px solid black;}
+.bi {margin-left: 10px;}
+.end {background-color: rgb(177, 177, 177);}
+    @media screen and (max-width: 800px) {
+        .osnova {display: block;}    }
